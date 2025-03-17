@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace calculator
 {
-    internal class DivideStrategy : ICalculationStrategy
+    public class DivideStrategy : ICalculationStrategy
     {
         public double Calculate(double i, double j)
         {
