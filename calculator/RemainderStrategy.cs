@@ -10,7 +10,7 @@ namespace calculator
     {
         public double Calculate(double i, double j)
         {
-            if (j == 0)
+            if (j == 0.0)
                 throw new DivideByZeroException("На ноль делить нельзя");
             return i % j;
         }
